@@ -45,6 +45,10 @@
 @import "patterns_filter";
 @import "patterns_slider";
 
+
+@import "../../../ui/src/scss/_patterns_navigation";
+@include maas-navigation;
+
 // Include local patterns
 @include maas;
 
